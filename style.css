@@ -1,0 +1,49 @@
+body {
+
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    background-color: #e8e0ff;
+
+    text-align: center;
+}
+
+#date-box {
+
+    width: 140px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    background-color: rgb(205, 151, 255);
+
+    color: rgba(232, 224, 255, 0.9);
+
+    font-family: "Pacifico", cursive;
+
+    font-size: 25px;
+
+    line-height: 1.5;
+
+    text-align: center;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+    transition: 0.3s ease;
+}
+
+#date-box:hover {
+
+    transform: scale(1.03);
+}
+
+.line {
+
+    display: block;
+}
